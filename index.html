@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculaator - Project </title>
+</head>
+
+<link rel="stylesheet" href="./style.css">
+
+<body>
+
+    <section>
+
+    <div id="frame">
+
+        <div id="input">
+
+            <input id="text" type="text" readonly>
+
+        </div>
+
+          <div class="parent">
+                    
+         <div class="box"><button class="butto" onclick=" currentValue = '';   document.querySelector('#text').value = currentValue;  "   > C </button></div>
+         <div class="box"><button class="butto" onclick=" currentValue += '1';  document.querySelector('#text').value = currentValue;  "   > 1 </button></div>
+         <div class="box"><button class="butto"  onclick=" currentValue += 2;  document.querySelector('#text').value = currentValue;  "   > 2 </button></div>
+         <div class="box"><button class="butto"  onclick=" currentValue = currentValue + '+';  document.querySelector('#text').value = currentValue;  "   > + </button></div>
+
+         <div class="box"><button class="butto"  onclick=" currentValue += 3;  document.querySelector('#text').value = currentValue;  "   > 3 </button> </div>
+
+         <div class="box"><button class="butto"  onclick=" currentValue += 4;  document.querySelector('#text').value = currentValue;  "  > 4 </button> </div>
+
+         <div class="box"><button class="butto"  onclick=" currentValue += '-';  document.querySelector('#text').value = currentValue;  "   > - </button></div>
+         <div class="box"><button class="butto"  onclick=" currentValue += 5;  document.querySelector('#text').value = currentValue;  "   > 5 </button></div>
+         <div class="box"><button class="butto"  onclick=" currentValue += 6;  document.querySelector('#text').value = currentValue;  "   > 6 </button> </div>
+         <div class="box"><button class="butto"  onclick=" currentValue += '*';  document.querySelector('#text').value = currentValue;  "   > * </button> </div>
+         <div class="box"><button class="butto"  onclick=" currentValue += 7;  document.querySelector('#text').value = currentValue;  "   > 7 </button> </div>
+
+         <div class="box"><button class="butto"  onclick=" currentValue += 8;  document.querySelector('#text').value = currentValue;  "   > 8 </button></div>
+
+         <div class="box"><button class="butto"  onclick=" currentValue += '/';  document.querySelector('#text').value = currentValue;  "   > / </button></div>
+
+         <div class="box"><button class="butto"  onclick=" currentValue += 9;  document.querySelector('#text').value = currentValue;  "  > 9 </button></div>
+
+         <div class="box"><button class="butto"  onclick=" currentValue += 0;  document.querySelector('#text').value = currentValue;  "   > 0 </button></div>
+
+         <div class="box"><button class="butto"  onclick=" currentValue = eval(currentValue) ;  document.querySelector('#text').value = currentValue ;  "   > = </button></div>
+
+         <div class="box"><button class="butto"  onclick=" currentValue += '.';  document.querySelector('#text').value = currentValue;  "   >  . </button></div>
+ 
+
+         <!-- currentValue = 0 + ' 2' ekahne 0 ta o age string e convert hobe then assign hobe  -->
+
+          </div> 
+
+    </div>
+
+    
+</section>
+   
+    
+
+    <script src="./ndex.js" >
+
+
+
+    </script>
+</body>
+</html>

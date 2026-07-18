@@ -1,0 +1,51 @@
+
+
+    #frame{
+
+        height: 400px; width: 300px;
+        border: 1px solid ;
+    }
+
+    section {
+             display: flex;
+             justify-content: center;
+     
+
+
+    }
+
+    #input{
+           margin: 20px 0px 0px 0px;
+           display: flex;
+           justify-content: center;
+    }
+
+    #text {
+        height: 40px; width: 200px;
+        background-color:lavender;
+        color: black;
+    }
+
+    .parent {
+             display: grid;
+             grid-template-columns: repeat(3, 1fr);
+             justify-content: center;
+             gap: 10px;
+
+         
+            margin: 50px auto 50px auto;
+             width: max-content;
+             background-color: azure;
+     
+          
+    }
+
+
+
+    .butto {
+
+        height: 30px;
+        width: 40px;
+        background-color:aliceblue;
+
+    }
